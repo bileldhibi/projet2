@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+    #main{
+        width: 100%;
+        max-width: 100%;
+    }
+    #main p{
+        width: 100%;
+        padding: 17px;
+        background:linear-gradient(45deg,rgb(39, 6, 99) 60%,red 50%) ;
+        color: darkgoldenrod;
+        text-align: center;
+        font-weight: bold;
+        text-shadow: rgb(29, 27, 27) 2px 1px;
+        font-size: 18px;
+    }
+    #main textarea{
+        width: 100%;
+        min-height: 160px;
+        border: solid firebrick 3px;
+        outline: none;
+        border-radius: 20px;
+        padding: 18px;
+        margin-top: 30px;
+    }
+    #main select{
+        width: 100%;
+        border:double 3px chartreuse;
+        outline: none;
+        padding: 16px;
+        border-radius: 18px;
+        color: crimson;
+        font-size: 19px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-shadow: rgb(100, 15, 139) 2px 1px;
+    }
+    </style>
+</head>
+<body>
+    <!--<h1 id="h1"></h1>
+    <h1 id="hh1"></h1>
+      -->
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand">Bilel Dhibi</a>
+          <a class="navbar-brand" href="#">
+            <img src="bilel1.jpg" alt="" width="64" height="64" class="d-inline-block align-top" style="border-radius: 50%; border: solid 2px red;">
+          </a>
+       
+        </div>
+      </nav>
+    <main  id="main">
+        <p>Text</p>
+        <select id="select">
+            <option value="encode">Encodes</option>
+            <option value="decode">Decodes</option>
+        </select>
+        <textarea id="text" ></textarea>
+        <p>Resultat</p>
+        <textarea id="resultat"></textarea>
+    </main>
+    <script src="projet2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+<div class="card" style="text-align: center;">
+    <h5 class="card-header">About US</h5>
+    <div class="card-body">
+      
+      <a href="tel:+21628797967 " class="btn btn-primary" target="_blank">Contact</a>
+    </div>
+  </div>
+</body>
+</html>
